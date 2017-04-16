@@ -1,0 +1,48 @@
+/**
+ * css/index.css
+ */
+
+* {
+  -webkit-border-size: border-box;
+  -moz-border-size: border-box;
+  border-size: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  padding: 2rem 15%;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+  letter-spacing: .05rem;
+
+  text-align: justify;
+}
+
+p.right {
+  text-align: right;
+}
+
+img {
+  display: block;
+  margin: 1rem auto;
+}
